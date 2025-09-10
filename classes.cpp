@@ -36,3 +36,8 @@ int main() {
 
     return 0;
 }
+
+// Pergunta: Por que não se usa o destrutor nesse caso acima em main?
+// Resposta: Porque o objeto person1 é alocado na pilha (stack) e não no heap.
+// Objetos alocados na pilha são automaticamente destruídos quando saem do escopo,
+// enquanto objetos alocados no heap precisam ser destruídos explicitamente.

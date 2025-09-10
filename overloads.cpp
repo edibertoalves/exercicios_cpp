@@ -4,6 +4,8 @@ void HelloC() {
     std::cout << "Hello, C!" << std::endl;
 };
 
+/// @brief  exemplo de overload
+/// @param HelloFirstName
 void HelloC(std::string HelloFirstName) {
     std::cout << "Hello, " << HelloFirstName << "!" << std::endl;
 };

@@ -7,6 +7,12 @@ int main() {
         cout << "Repetição do FOR: " << i + 1 << endl;
     }
 
+    // FOR EACH
+    string nomes[] = {"Ana", "Bruno", "Carla", "Daniel", "Eva"};
+    for (const string& nome : nomes) {
+        cout << "Nome: " << nome << endl;
+    }
+
     // WHILE
     int j = 0;
     while (j < 5) {

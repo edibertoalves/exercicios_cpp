@@ -7,7 +7,7 @@ int main() {
 
     cout << "Valor da idade: " << idade << endl;
     cout << "Endereço de idade: " << &idade << endl; // endereço de idade na memória
-    cout << "Conteúdo do ponteiro (endereço): " << ponteiro << endl;
-    cout << "Valor apontado pelo ponteiro: " << * ponteiro << endl; // desreferenciando
+    cout << "Conteúdo do ponteiro (endereço da variável idade): " << ponteiro << endl;
+    cout << "Valor apontado pelo ponteiro: " << *ponteiro << endl; // desreferenciando
     return 0;
 }

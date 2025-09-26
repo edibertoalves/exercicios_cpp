@@ -3,8 +3,6 @@
 #include "../nlohmann/single_include/nlohmann/json.hpp"
 #include <iostream>
 
-
-
 int main() {
     nlohmann::json j = {{"id", 1}, {"age", 30}, {"name", "John Doe"}};
     std::cout << j << std::endl;

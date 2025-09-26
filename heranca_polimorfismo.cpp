@@ -46,8 +46,10 @@ int main() {
     cachorro.fazerSom();
     gato.fazerSom();
 
-    delete &cachorro; // Limpeza de memória, se necessário
-    delete &gato; // Limpeza de memória, se necessário
+    // delete &cachorro; // Limpeza de memória, se necessário
+    // delete &gato; // Limpeza de memória, se necessário
+
+    // Só use o delete se você tiver usado new para alocar memória dinamicamente
 
     cout << "Fim do programa" << endl;
     // Note: In this case, delete is not necessary since we are not using dynamic memory allocation.

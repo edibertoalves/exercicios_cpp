@@ -11,7 +11,7 @@ public:
     }
 
     void introduce() {
-        cout << "Hello, my name is " << name << " and I am " << age << " years old." << endl;
+        cout << "\nHello, my name is " << name << " and I am " << age << " years old." << endl;
     }
 
     void showAge() {
@@ -32,7 +32,7 @@ int main() {
     person1.introduce();
     person1.showAge();
 
-    delete &person1;
+    // delete &person1;
 
     return 0;
 }

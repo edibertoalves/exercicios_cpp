@@ -1,11 +1,7 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
-            // configura o GDB/LDB para depurar o programa
             "name": "C++ Launch",
             "type": "cppdbg",
             "request": "launch",
@@ -26,29 +22,5 @@
             ],
             "preLaunchTask": "build"
         }
-            ],
-    "tasks": {
-        "version": "2.0.0",
-        "tasks": [
-            {
-                "label": "build",
-                "type": "shell",
-                "command": "g++",
-                "args": [
-                    "-g",
-                    "-IE:/Estudos/cpp/curl/include",
-                    "-LE:/Estudos/cpp/curl/lib",
-                    "basico_api.cpp",
-                    "-o",
-                    "basico_api.exe",
-                    "-lcurl"
-                ],
-                "group": {
-                    "kind": "build",
-                    "isDefault": true
-                },
-                "problemMatcher": ["$gcc"]
-            }
-        ]
-    }
+    ]
 }

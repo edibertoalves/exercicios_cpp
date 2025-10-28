@@ -40,7 +40,6 @@ class ClasseApi {
             curl_global_cleanup();
             curl = nullptr;
             res = CURLE_OK;
-
         };
 };
 
